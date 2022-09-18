@@ -29,6 +29,12 @@ img {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    height: 125px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.liste img {
+    width: 90%;
 }
 
 .lien {
@@ -70,9 +76,17 @@ img {
     height: 270px;
 }
 
+.container p {
+    font-size: 88%;
+    text-align: left;
+    margin-left: 2%;
+
+
+}
+
 
 .container h2{
-    font-size: 330%;
+    font-size: 270%;
     padding: 2%;
 }
 
@@ -88,6 +102,8 @@ html, body {
     font-family: 'Work Sans', sans-serif;
     padding-bottom: 3%;
 }
+
+
 
 .produit2 {
     display: flex;
@@ -107,10 +123,10 @@ html, body {
     text-align: center;
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
+
 }
 
 .liste2 {
-    font-family: 'Work Sans', sans-serif;
     font-size: 50px;
     text-align: center;
     justify-content: center;
@@ -118,12 +134,15 @@ html, body {
     margin-top: 215px;
     background-color: rgb(112, 63, 63);
     padding-bottom: 3%;
+    font-family: 'Work Sans', sans-serif;
 }
+
 
 .fiche{
     font-size: 140%;
     text-align: center;
     justify-content: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .fiche h2{
@@ -137,8 +156,7 @@ html, body {
     align-items:center;
     margin-top: 30px;
     margin-right: 10%;
-
-
+    font-family: 'Work Sans', sans-serif;
 }
 
 .lamachine {
